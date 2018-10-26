@@ -4,7 +4,7 @@ The purpose of clstering data is to identify unique differences that cannot be o
 
 The most well known clustering method is the k-means clustering and we'll study here forth how to use the algorithm with our data
 
-K- Means Clustering
+**K- Means Clustering**
 
 The basic algorithms in step wise is as follows, 
   1. Determine the number of classes the data needs to be clsutered and randomly initialize the cluster centroid of each class within the data points. (Determining the number of clusters can be done by having a look in to the data with visualization techniques such as Prciple Component Analysis(PCA) or Selef Organizing Maps(Kohonen Networks) - we'll study those in upcoming lessons. Also it's valuable to remember that the algorithm is sensitive for the initial initialization of centroid points which we did randomly here)
