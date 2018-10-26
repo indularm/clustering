@@ -1,10 +1,18 @@
-## Welcome to GitHub Pages
+## Clustering: an Introduction
 
-You can use the [editor on GitHub](https://github.com/indularm/clustering/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The purpose of clstering data is to identify unique differences that cannot be otherwise determined by looking at data. The algorithms exploit different mathematical approaches to dfferentiate one data point form the other and conglomerate the points that has similar properties. It's an unsupervised learning method and is highly used in statistical data analysis. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The most well known clustering method is the k-means clustering and we'll study here forth how to use the algorithm with our data
 
-### Markdown
+K- Means Clustering
+
+The basic algorithms in step wise is as follows, 
+  1. Determine the number of classes the data needs to be clsutered and randomly initialize the cluster centroid of each class within the data points. (Determining the number of clusters can be done by having a look in to the data with visualization techniques such as Prciple Component Analysis(PCA) or Selef Organizing Maps(Kohonen Networks) - we'll study those in upcoming lessons. Also it's valuable to remember that the algorithm is sensitive for the initial initialization of centroid points which we did randomly here)
+  2. Each data point is assigned to the nearest neighbouring cluster centroid according to the distance from the centroid. 
+  3.  
+  
+  
+  ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
