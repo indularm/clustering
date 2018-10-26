@@ -9,7 +9,10 @@ K- Means Clustering
 The basic algorithms in step wise is as follows, 
   1. Determine the number of classes the data needs to be clsutered and randomly initialize the cluster centroid of each class within the data points. (Determining the number of clusters can be done by having a look in to the data with visualization techniques such as Prciple Component Analysis(PCA) or Selef Organizing Maps(Kohonen Networks) - we'll study those in upcoming lessons. Also it's valuable to remember that the algorithm is sensitive for the initial initialization of centroid points which we did randomly here)
   2. Each data point is assigned to the nearest neighbouring cluster centroid according to the distance from the centroid. 
-  3.  
+  3. Based on assigned datapoints we compute the new centroid as the mean of the all vectors of the data points thus assigned. 
+  4. Repeat the above steps for pre defined number of iterations or until the centroids don't change the poition much in the step 3. 
+  
+  
   
   
   ### Markdown
