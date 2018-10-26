@@ -33,7 +33,7 @@ print(y)
 
 plt.scatter(X[:,0],X[:,1],marker = "x", s= 12)
 plt.show()
-      
+```      
   
   
   
