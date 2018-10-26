@@ -7,7 +7,7 @@ X, y = make_blobs(n_samples=500,
                   cluster_std=1,
                   center_box=(-10.0, 10.0),
                   shuffle=True,
-                  random_state=1)  # For reproducibility
+                  random_state=1)
 
 print(X)
 print(y)
