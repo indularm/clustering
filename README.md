@@ -35,7 +35,8 @@ plt.scatter(X[:,0],X[:,1],marker = "x", s= 12)
 plt.show()
 ```      
 following is the graph generated above, 
-<img src="images/blobs.jpg" alt="blobs" class="inline"/>
+<img src="Figure_1.png" alt="blobs" class="inline"/>
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
