@@ -1,6 +1,6 @@
 ## Clustering: an Introduction
 
-The purpose of clstering data is to identify unique differences that cannot be otherwise determined by looking at data. The algorithms exploit different mathematical approaches to dfferentiate one data point form the other and conglomerate the points that has similar properties. It's an unsupervised learning method and is highly used in statistical data analysis. 
+The purpose of clustering data is to identify unique differences that cannot be otherwise determined by looking at the data. The algorithms exploit different mathematical approaches to dfferentiate one data point form the other and conglomerate the points that has similar properties. It's an unsupervised learning method and is highly used in statistical data analysis. 
 
 The most well known clustering method is the k-means clustering and we'll study here forth how to use the algorithm with our data
 
