@@ -29,8 +29,8 @@ X, y = make_blobs(n_samples=500,
                   shuffle=True,
                   random_state=1)
 
-print(X)
-print(y)
+print(X) #outputs a dataset with 2 features and 500 samples
+print(y) #outputs cluster labes for 500 samples
 
 plt.scatter(X[:,0],X[:,1],marker = "x", s= 12)
 plt.show()
@@ -42,6 +42,33 @@ You can see that the dataset contains 4 clusters. We can implement the kmeans cl
 
 The scikit lean kmeans algorithms can be implemented as follows, 
 The algorithm tries to minimise a parameter known as inertia or within-cluster sum-of-squares. The algorithm clusters the data in groups with equal variance. (more about within-cluster sum-of-squares can be found here https://discuss.analyticsvidhya.com/t/what-is-within-cluster-sum-of-squares-by-cluster-in-k-means/2706/2). 
+
+clustering with scikit learn, 
+
+Assume that above code has already generated X for the following code.
+```python
+from sklearn.cluster import KMeans
+
+kmeans = KMeans(n_clusters = 4)
+kmeans.fit(X)
+
+centroids = kmeans.cluster_centers_ #outputs the centroids
+labels = kmeans.labels_ #outputs the labels for each sample in the order of given samples
+
+colors = ["g","r","b","c","m","y","k","w"]
+
+for i in range(len(sales_date)):
+    print "Coordinate :", X[i], "Labels :", labels[i]
+    plt.plot(X[0,i],X[1,i], colors[labels[i]], marker = "x", markersize = 10)
+    
+plt.xlabel("Dim 1")
+plt.ylabel("Dim 2")
+plt.show()
+
+```
+The following result is given by the above code,
+
+<img src="Figure_2.png" alt="blobs" class="inline"/>
 
 
 
