@@ -38,3 +38,10 @@ plt.show()
 following is the graph generated above, 
 <img src="Figure_1.png" alt="blobs" class="inline"/>
 
+You can see that the dataset contains 4 clusters. We can implement the kmeans clustering directly on this data and obtain the separation of clusters. In reality the real world problems mostly doesn't come with how many clusters that it contains, usually it's one of the questions that needs to be answered. Hence there are several ways we can use to know how many clusters the dataset may contain. 
+
+The scikit lean kmeans algorithms can be implemented as follows, 
+The algorithm tries to minimise a parameter known as inertia or within-cluster sum-of-squares. The algorithm clusters the data in groups with equal variance. (more about within-cluster sum-of-squares can be found here https://discuss.analyticsvidhya.com/t/what-is-within-cluster-sum-of-squares-by-cluster-in-k-means/2706/2). 
+
+
+
