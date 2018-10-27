@@ -70,5 +70,7 @@ The following result is given by the above code,
 
 <img src="Figure_2.png" alt="blobs" class="inline"/>
 
+There are few parameters in the above function that you can change and experiment with. Details about those can be found on documentation page: http://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html#sklearn.cluster.KMeans
+
 
 
