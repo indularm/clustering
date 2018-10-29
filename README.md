@@ -124,3 +124,9 @@ plt.show()
 ```
 The result of the above code is depicted below, 
 <img src="Figure_4.png" alt="blobs" class="inline"/>
+
+The result clearly shows that the PCA enables to visualize the dataset showing the possible unmber of clusters. This will not always be clear as above, but the potential of the method remains valuable for cluster analysis.
+
+Let's study the method of self organizing maps method of visualizing the dataset. It's also another valuable visualization technique to get an idea of how many clusters available in the dataset. 
+
+
