@@ -121,3 +121,6 @@ for i in range(len(principalComponents)):
 plt.xlabel("principal component 1")
 plt.ylabel("principal component 2")
 plt.show()
+```
+The result of the above code is depicted below, 
+<img src="Figure_4.png" alt="blobs" class="inline"/>
