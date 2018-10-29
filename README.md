@@ -129,4 +129,6 @@ The result clearly shows that the PCA enables to visualize the dataset showing t
 
 Let's study the method of self organizing maps method of visualizing the dataset. It's also another valuable visualization technique to get an idea of how many clusters available in the dataset. 
 
+We'll be using a library known as SOMPY created by Vahid Moosavi. 
+
 
