@@ -125,10 +125,15 @@ plt.show()
 The result of the above code is depicted below, 
 <img src="Figure_4.png" alt="blobs" class="inline"/>
 
-The result clearly shows that the PCA enables to visualize the dataset showing the possible unmber of clusters. This will not always be clear as above, but the potential of the method remains valuable for cluster analysis.
+The result clearly shows that the PCA enables to visualize the dataset showing the possible nunmber of clusters. This will not always be clear as above, but the potential of the method remains valuable for cluster analysis.
 
-Let's study the method of self organizing maps method of visualizing the dataset. It's also another valuable visualization technique to get an idea of how many clusters available in the dataset. 
+Let's study the method of self organizing maps method of visualizing the dataset. It's also another valuable visualization technique to get an idea of how many clusters available in the dataset. Basically what it does is representing higher dimentional data in a lower diementional map. It also groups the items with similar characteristics and hence is a clustering technique. What's most important is, it does all these preserving the topological nature of the dataset unlike PCA it preserve the original data set topology. 
+
+Let's discuss how the algorithm works on a seperate page reserved for Kohonen maps. For now let's learn how to use it to help gain knowledge about the dataset that we deal with. 
 
 We'll be using a library known as SOMPY created by Vahid Moosavi. 
+
+The github repository for SOMPY library : https://github.com/sevamoo/SOMPY
+
 
 
