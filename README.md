@@ -133,7 +133,9 @@ Let's discuss how the algorithm works on a seperate page reserved for Kohonen ma
 
 We'll be using a library known as SOMPY created by Vahid Moosavi. 
 
-The github repository for SOMPY library : https://github.com/sevamoo/SOMPY
+The github repository for SOMPY library : https://github.com/sevamoo/SOMPY. Download the whole file and install it using the setup.py file. 
+
+
 
 
 
