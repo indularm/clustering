@@ -143,11 +143,13 @@ import numpy as np
 from time import time
 import sompy
 
+#Creating and Training the Kohonen Network
 
 mapsize = [100,100]
 som = sompy.SOMFactory.build(X, mapsize, mask=None, mapshape='planar', lattice='rect', normalization='var', initialization='pca', neighborhood='gaussian', training='batch', name='sompy')  # this will use the default parameters, but i can change the initialization and neighborhood methods
 som.train(n_job=1, verbose='info')  # verbose='debug' will print more, and verbose=None wont print anything
 
+#Visualizing the component planes of the trained Kohonen Network
 
 v = sompy.mapview.View2DPacked(100, 100, 'test',text_size=8)  
 # could be done in a one-liner: sompy.mapview.View2DPacked(300, 300, 'test').show(som)
