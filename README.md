@@ -135,6 +135,28 @@ We'll be using a library known as SOMPY created by Vahid Moosavi.
 
 The github repository for SOMPY library : https://github.com/sevamoo/SOMPY. Download the whole file and install it using the setup.py file. 
 
+To create the component planes, add the following code with additional libraries if you havent added them with your project, 
+
+```python
+import pandas as pd
+import numpy as np
+from time import time
+import sompy
+
+
+mapsize = [100,100]
+som = sompy.SOMFactory.build(X, mapsize, mask=None, mapshape='planar', lattice='rect', normalization='var', initialization='pca', neighborhood='gaussian', training='batch', name='sompy')  # this will use the default parameters, but i can change the initialization and neighborhood methods
+som.train(n_job=1, verbose='info')  # verbose='debug' will print more, and verbose=None wont print anything
+
+
+v = sompy.mapview.View2DPacked(100, 100, 'test',text_size=8)  
+# could be done in a one-liner: sompy.mapview.View2DPacked(300, 300, 'test').show(som)
+v.show(som, what='codebook', which_dim='all', cmap=None, col_sz=6) #which_dim='all' default
+# v.save('2d_packed_test')
+```
+The output of the above result is shown below, 
+
+<img src="Figure_5.png" alt="blobs" class="inline"/>
 
 
 
