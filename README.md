@@ -160,6 +160,20 @@ The output of the above result is shown below,
 
 <img src="Figure_5.png" alt="blobs" class="inline"/>
 
+The hits map for the analisys can be viewed as follows, 
+
+```python
+from sompy.visualization.bmuhits import BmuHitsView
+
+vhts  = BmuHitsView(100,100,"Hits Map",text_size=7)
+vhts.show(som, anotate=True, onlyzeros=False, labelsize=12, cmap="Greys", logaritmic=False)
+```
+The result we get will be as follows, 
+
+<img src="Figure_5.png" alt="blobs" class="inline"/>
+
+
+
 
 
 
