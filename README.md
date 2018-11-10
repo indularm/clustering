@@ -170,7 +170,7 @@ vhts.show(som, anotate=True, onlyzeros=False, labelsize=12, cmap="Greys", logari
 ```
 The result we get will be as follows, 
 
-<img src="Figure_5.png" alt="blobs" class="inline"/>
+<img src="Figure_7.png" alt="blobs" class="inline"/>
 
 
 
