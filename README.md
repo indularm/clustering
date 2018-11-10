@@ -175,9 +175,18 @@ The result we get will be as follows,
 For further our idea about the data set, we can take the U-matrix of the SOM as follows, 
 
 ```python 
+u = sompy.umatrix.UMatrixView(100, 100, 'umatrix', show_axis=True, text_size=8, show_text=True)
 
+#This is the Umat value
+UMAT  = u.build_u_matrix(som, distance=1, row_normalized=False)
 
+#Here you have Umatrix plus its render
+UMAT = u.show(som, distance2=1, row_normalized=False, show_data=True, contooor=True, blob=False)
+```
+The output of the above is as follows, 
 
+<img src="Figure_8.png" alt="blobs" class="inline"/>
 
+You can clearly see the seperation of the clusters with the light color regions in the map. 
 
 
