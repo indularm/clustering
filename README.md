@@ -172,6 +172,10 @@ The result we get will be as follows,
 
 <img src="Figure_7.png" alt="blobs" class="inline"/>
 
+For further our idea about the data set, we can take the U-matrix of the SOM as follows, 
+
+```python 
+
 
 
 
